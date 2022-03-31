@@ -41,9 +41,10 @@
             // 
             this.btnSales.BackColor = System.Drawing.Color.PeachPuff;
             this.btnSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSales.Location = new System.Drawing.Point(455, 12);
+            this.btnSales.Location = new System.Drawing.Point(303, 8);
+            this.btnSales.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSales.Name = "btnSales";
-            this.btnSales.Size = new System.Drawing.Size(214, 157);
+            this.btnSales.Size = new System.Drawing.Size(143, 102);
             this.btnSales.TabIndex = 0;
             this.btnSales.Text = "Sales";
             this.btnSales.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -54,9 +55,10 @@
             // 
             this.btnProduct.BackColor = System.Drawing.Color.MediumAquamarine;
             this.btnProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProduct.Location = new System.Drawing.Point(232, 12);
+            this.btnProduct.Location = new System.Drawing.Point(155, 8);
+            this.btnProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(214, 157);
+            this.btnProduct.Size = new System.Drawing.Size(143, 102);
             this.btnProduct.TabIndex = 0;
             this.btnProduct.Text = "Product";
             this.btnProduct.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -67,9 +69,10 @@
             // 
             this.btnCustomer.BackColor = System.Drawing.Color.Orange;
             this.btnCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomer.Location = new System.Drawing.Point(12, 12);
+            this.btnCustomer.Location = new System.Drawing.Point(8, 8);
+            this.btnCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(214, 157);
+            this.btnCustomer.Size = new System.Drawing.Size(143, 102);
             this.btnCustomer.TabIndex = 0;
             this.btnCustomer.Text = "Customer";
             this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -80,9 +83,10 @@
             // 
             this.btnDeleted.BackColor = System.Drawing.Color.Thistle;
             this.btnDeleted.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleted.Location = new System.Drawing.Point(455, 203);
+            this.btnDeleted.Location = new System.Drawing.Point(303, 132);
+            this.btnDeleted.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDeleted.Name = "btnDeleted";
-            this.btnDeleted.Size = new System.Drawing.Size(214, 157);
+            this.btnDeleted.Size = new System.Drawing.Size(143, 102);
             this.btnDeleted.TabIndex = 0;
             this.btnDeleted.Text = "Deleted";
             this.btnDeleted.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -93,9 +97,10 @@
             // 
             this.btnCategory.BackColor = System.Drawing.Color.CadetBlue;
             this.btnCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCategory.Location = new System.Drawing.Point(235, 203);
+            this.btnCategory.Location = new System.Drawing.Point(157, 132);
+            this.btnCategory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCategory.Name = "btnCategory";
-            this.btnCategory.Size = new System.Drawing.Size(214, 157);
+            this.btnCategory.Size = new System.Drawing.Size(143, 102);
             this.btnCategory.TabIndex = 0;
             this.btnCategory.Text = "Category";
             this.btnCategory.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -106,9 +111,10 @@
             // 
             this.btnAddStock.BackColor = System.Drawing.Color.Gray;
             this.btnAddStock.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStock.Location = new System.Drawing.Point(12, 203);
+            this.btnAddStock.Location = new System.Drawing.Point(8, 132);
+            this.btnAddStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddStock.Name = "btnAddStock";
-            this.btnAddStock.Size = new System.Drawing.Size(214, 157);
+            this.btnAddStock.Size = new System.Drawing.Size(143, 102);
             this.btnAddStock.TabIndex = 0;
             this.btnAddStock.Text = "Add Stock";
             this.btnAddStock.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -119,9 +125,10 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Salmon;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(232, 366);
+            this.button6.Location = new System.Drawing.Point(155, 238);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(214, 157);
+            this.button6.Size = new System.Drawing.Size(143, 102);
             this.button6.TabIndex = 0;
             this.button6.Text = "Exit";
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -130,9 +137,9 @@
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(681, 540);
+            this.ClientSize = new System.Drawing.Size(454, 351);
             this.Controls.Add(this.btnAddStock);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnCategory);
@@ -140,7 +147,9 @@
             this.Controls.Add(this.btnDeleted);
             this.Controls.Add(this.btnProduct);
             this.Controls.Add(this.btnSales);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmMain";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stock Tracking";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmMain_FormClosed);
